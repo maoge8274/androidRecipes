@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_style_1_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uiitop.androidrecipes.ch_01_StylesThemes.Style_1_1"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/LabelText"
+        android:text="Select One"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/FormRadioButton"
+            android:text="One"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/FormRadioButton"
+            android:text="Two"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/FormRadioButton"
+            android:text="Three"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/LabelText"
+            android:text="Select All"/>
+
+        <TableRow>
+            <CheckBox android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FormCheckBox"
+                android:text="One"/>
+            <CheckBox android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FormCheckBox"
+                android:text="Two"/>
+            <CheckBox android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FormCheckBox"
+                android:text="Three"/>
+        </TableRow>
+
+        <TableRow>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FormButton"
+                android:text="@android:string/ok"/>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/FormButton"
+                android:text="@android:string/cancel"/>
+        </TableRow>
+
+    </RadioGroup>
+
+</TableLayout>

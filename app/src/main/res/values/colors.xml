@@ -3,4 +3,6 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="accentPink">#cb41da</color>
+    <color name="text_checkbox">#555555</color>
 </resources>

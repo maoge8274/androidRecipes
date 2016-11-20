@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ch_01_StylesThemes.Style_1_1"></activity>
     </application>
 
 </manifest>
